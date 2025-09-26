@@ -1,6 +1,7 @@
 public class Account {
     // 帳戶號碼
-    private String accountNumber; // 帳戶餘額
+    private String accountNumber;
+    // 帳戶餘額
     private double balance;
 
     // 建構子，初始化帳戶號碼與初始餘額
@@ -17,6 +18,13 @@ public class Account {
     // 取得帳戶餘額
     public double getBalance() {
         return balance;
+    }
+    // 設定帳戶餘額
+    public void setBalance(double balance) {
+        if (balance < 0) {
+            throw new IllegalArgumentException("Balance cannot be negative");
+        }
+        this.balance = balance;
     }
 
     //存款方法，金額必須大於0
