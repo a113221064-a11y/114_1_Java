@@ -15,13 +15,13 @@ public class Main {
         // 2. 準備一些影片資料
         List<Video> videoLibrary = new ArrayList<>();
         videoLibrary.add(new Video("V1", "向日葵", "Music", false, 0, Arrays.asList("TW", "US", "HK")));
-        videoLibrary.add(new Video("V2", "Spring 教學", "Coding", true, 12, Arrays.asList("TW,US")));
+        videoLibrary.add(new Video("V2", "Java進階教學", "Coding", true, 12, Arrays.asList("TW")));
         videoLibrary.add(new Video("V3", "法式甜點", "Cooking", false, 0, Arrays.asList("TW", "HK")));
-        videoLibrary.add(new Video("V4", "Java入門", "Coding", false, 0, Arrays.asList( "US")));
+        videoLibrary.add(new Video("V4", "Java入門", "Coding", false, 0, Arrays.asList( "TW","US")));
         videoLibrary.add(new Video("V5", "限制級驚悚", "Horror", true, 18, Arrays.asList("TW")));
         videoLibrary.add(new Video("V6", "青花瓷", "Music", false, 0, Arrays.asList("TW")));
         videoLibrary.add(new Video("V7", "Blue", "Music", false, 0, Arrays.asList("TW")));
-        videoLibrary.add(new Video("V8", "Java 教學", "Coding", false, 0, Arrays.asList("TW")));
+        videoLibrary.add(new Video("V8", "Java 教學", "Coding", false, 0, Arrays.asList("HK")));
         videoLibrary.add(new Video("V9", "馬卡龍", "Cooking", false, 0, Arrays.asList("TW")));
 
 
